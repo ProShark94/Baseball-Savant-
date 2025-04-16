@@ -1,0 +1,32 @@
+[project]
+name = "mluno"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "ProShark94", email = "dhr6394@gmail.com" }
+]
+dependencies = [
+    "numpy>=1.26.4",
+    "matplotlib>=3.8.4",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.1.1",
+    "ipykernel>=6.29.4",
+    "quartodoc>=0.7.2",
+    "scikit-learn>=1.4.1.post1",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mluno"]
