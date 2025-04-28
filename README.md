@@ -1,8 +1,8 @@
 # Baseball Savant Fast API based Python Package
 ---
-title: "MLuno"
-description: Univariate Machine Learning
-author: "Dhritiman Roy"
+Title: "MLuno"
+Description: Univariate Machine Learning
+Author: "Dhritiman Roy"
 
 ---
 
