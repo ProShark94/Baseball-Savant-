@@ -6,7 +6,6 @@ Author: "Dhritiman Roy"
 
 ---
 
-Here is the [**API Reference*](reference/index.qmd)
 
 Package mluno is a Python package which offers a suite of machine learning tools and utilities designed to facilitate the data analysis and modeling process. The package is structured to provide a straightforward approach for implementing machine learning models, allowing users to efficiently prototype and test their ideas, with the end goal of deploying robust solutions. It comes with a detailed API reference and documentation to enhance user experience.
 
